@@ -5,19 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Numastra &mdash; What Stars Say | Daily Astrology &amp; Numerology</title>
 <meta name="description" content="Numastra is a premium astrology and numerology app. Real-time planetary positions paired with your personal Life Path number for a daily reading made only for you.">
-
-<!-- Canonical URL -->
-<link rel="canonical" href="https://publicationsholiday-design.github.io/numastra-site/index.html">
+<!-- TODO: update canonical to your final hosted URL -->
+<link rel="canonical" href="https://YOUR-GITHUB-USER.github.io/numastra/index.html">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph / social share preview -->
 <meta property="og:title" content="Numastra — What Stars Say">
 <meta property="og:description" content="Your daily reading, made only for you. Real planetary positions + your personal numerology.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://publicationsholiday-design.github.io/numastra-site/index.html">
-<!-- Absolute URL so social scrapers (iMessage/Facebook/WhatsApp) can resolve it.
-     Add a 1200x630 image named og-cover.jpg next to this file. -->
-<meta property="og:image" content="https://publicationsholiday-design.github.io/numastra-site/og-cover.jpg">
+<!-- TODO: add a 1200x630 share image named og-cover.jpg next to this file -->
+<meta property="og:image" content="og-cover.jpg">
 
 <style>
   :root{
@@ -136,10 +133,14 @@
     <p>Your birth details stay securely on your device and are used only to personalize your guidance. Your data belongs to you.</p>
   </div>
 
+  <!-- ── EMAIL SIGNUP ──────────────────────────────────────────────
+       Reuses your studio MailerLite account. TODO: create a NEW form in
+       MailerLite for Numastra and paste its action URL + iframe below,
+       so signups land in a Numastra list (not the travel list). -->
   <div class="signup">
     <h3>Get launch news &amp; a free reading</h3>
     <p>Join the list for early access, launch updates, and occasional cosmic guidance straight to your inbox.</p>
-    <form action="https://assets.mailerlite.com/jsonp/2451268/forms/192233812849067488/subscribe" method="post" target="ml_iframe" onsubmit="setTimeout(function(){document.getElementById('ml-ok').style.display='block';},600)">
+    <form action="https://assets.mailerlite.com/jsonp/2451268/forms/REPLACE_WITH_NUMASTRA_FORM_ID/subscribe" method="post" target="ml_iframe" onsubmit="setTimeout(function(){document.getElementById('ml-ok').style.display='block';},600)">
       <input type="email" name="fields[email]" placeholder="Your email address" autocomplete="email" required>
       <input type="hidden" name="ml-submit" value="1">
       <input type="hidden" name="anticsrf" value="true">
@@ -158,11 +159,13 @@
     <details><summary>Is this scientific?</summary><p>Numastra is intended for reflection, guidance, and entertainment.</p></details>
   </div>
 
+  <!-- ── SUPPORT + LEGAL (this is your App Store "Support URL" target) ──
+       TODO: replace the email and privacy link with your real ones. -->
   <div class="support" id="support">
     <h3>Support</h3>
-    <p>Need help or have a question? Email <a href="mailto:publicationsholiday@gmail.com">publicationsholiday@gmail.com</a> &mdash; we usually reply within 48 hours.</p>
+    <p>Need help or have a question? Email <a href="mailto:REPLACE@yourdomain.com">REPLACE@yourdomain.com</a> &mdash; we usually reply within 48 hours.</p>
     <p style="margin-top:10px">
-      <a href="https://docs.google.com/document/d/1ZH8t1aJdqMeH3_SmTacvUV711EIrdFFR/view">Privacy Policy</a> &middot;
+      <a href="REPLACE_WITH_PRIVACY_POLICY_URL">Privacy Policy</a> &middot;
       <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (EULA)</a>
     </p>
   </div>
